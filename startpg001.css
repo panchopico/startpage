@@ -1,0 +1,38 @@
+/* Stylesheet for startpages */
+
+body {
+    background-color: #777;
+}
+
+#search {
+    background-color: skyblue;
+    width: 150px;
+    height: 300px;
+    display: inline-block;
+    margin: 1em;
+}
+
+
+#social {
+    background-color: lightgreen;
+    width: 150px;
+    height: 300px;
+    display: inline-block;
+    margin: 1em;
+}
+
+#progtechsec{
+    background-color: pink;
+    width: 150px;
+    height: 300px;
+    display: inline-block;
+    margin: 1em;
+}
+
+#drives{
+    background-color: lightgray;
+    width: 150px;
+    height: 300px;
+    display: inline-block;
+    margin: 1em;
+}
