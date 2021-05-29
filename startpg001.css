@@ -4,12 +4,19 @@ body {
     background-color: #777;
 }
 
+h1 {
+    background-color: lightgrey;
+    padding: 1em;
+}
+
 #search {
     background-color: skyblue;
     width: 150px;
     height: 300px;
     display: inline-block;
-    margin: 1em;
+    margin: 5px;
+    border: 2px solid black;
+    padding: 5px;
 }
 
 
@@ -18,7 +25,10 @@ body {
     width: 150px;
     height: 300px;
     display: inline-block;
-    margin: 1em;
+    margin: 5px;
+    border: 2px solid black;
+    padding: 5px;
+    vertical-align: top;
 }
 
 #progtechsec{
@@ -26,7 +36,10 @@ body {
     width: 150px;
     height: 300px;
     display: inline-block;
-    margin: 1em;
+    margin: 5px;
+    border: 2px solid black;
+    padding: 5px;
+    vertical-align: top;
 }
 
 #drives{
@@ -34,5 +47,19 @@ body {
     width: 150px;
     height: 300px;
     display: inline-block;
-    margin: 1em;
+    margin: 5px;
+    border: 2px solid black;
+    padding: 5px;
+    vertical-align: top;
+}
+
+#imports{
+    background-color: #e8d8f7; 
+    width: 150px;
+    height: 300px;
+    display: inline-block;
+    margin: 5px;
+    border: 2px solid black;
+    padding: 5px;
+    vertical-align: top;
 }
