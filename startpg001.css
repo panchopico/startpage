@@ -1,29 +1,51 @@
 /* Stylesheet for startpages */
 
 body {
-    background-color: #777;
+    background-color: #abafcf;
+}
+
+a {
+	font-family: Arial, Sans;
+}
+
+a:hover {
+	background-color: yellow;
+	font-weight: bold;
 }
 
 h1 {
+	font-family: Arial, Sans;
     background-color: lightgrey;
     padding: 1em;
 }
 
-#search {
+h3 {
+	font-family: Arial, Sans;
+	color: lightgrey;
+    background-color: black;
+    padding: 1em;
+}
+
+.dblue {
+    background-color: gray;
+    width: 130px;
+    height: 250px;
+    display: inline-block;
+    margin: 5px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.dblue:hover {
+    height: 300px;
     background-color: skyblue;
-    width: 150px;
-    height: 300px;
-    display: inline-block;
-    margin: 5px;
-    border: 2px solid black;
-    padding: 5px;
+    transition: background-color 2s, height 2s;
 }
 
-
-#social {
-    background-color: lightgreen;
-    width: 150px;
-    height: 300px;
+.dlightgreen {
+    background-color: gray;
+    width: 130px;
+    height: 250px;
     display: inline-block;
     margin: 5px;
     border: 2px solid black;
@@ -31,10 +53,16 @@ h1 {
     vertical-align: top;
 }
 
-#progtechsec{
-    background-color: pink;
-    width: 150px;
-    height: 300px;
+.dlightgreen:hover {
+	background-color: lightgreen;
+	height: 300px;
+	transition: background-color 2s, height 2s;
+}
+
+.dpink {
+    background-color:gray;
+    width: 130px;
+    height: 250px;
     display: inline-block;
     margin: 5px;
     border: 2px solid black;
@@ -42,10 +70,16 @@ h1 {
     vertical-align: top;
 }
 
-#drives{
-    background-color: lightgray;
-    width: 150px;
-    height: 300px;
+.dpink:hover {
+	background-color: pink;
+	height: 300px;
+	transition: background-color 2s,  height 2s;
+}
+
+.dlightgray {
+    background-color:gray;
+    width: 130px;
+    height: 250px;
     display: inline-block;
     margin: 5px;
     border: 2px solid black;
@@ -53,13 +87,61 @@ h1 {
     vertical-align: top;
 }
 
-#imports{
-    background-color: #e8d8f7; 
-    width: 150px;
-    height: 300px;
+.dlightgray:hover {
+	background-color: orange;
+	height: 300px;
+	transition: background-color 2s, height 2s; 
+}
+
+.dlavender {
+    background-color:gray;
+    width: 130px;
+    height: 250px;
     display: inline-block;
     margin: 5px;
     border: 2px solid black;
     padding: 5px;
     vertical-align: top;
 }
+
+.dlavender:hover {
+	background-color:  lavender;
+	height: 300px;
+	transition: background-color 2s, height 2s;
+}
+
+.dtan{
+    background-color:gray;
+    width: 130px;
+    height: 250px;
+    display: inline-block;
+    margin: 5px;
+    border: 2px solid black;
+    padding: 5px;
+    vertical-align: top;
+}
+
+.dtan:hover {
+	background-color:  tan;
+	height: 300px;
+	transition: background-color 2s, height 2s;
+}
+
+/*
+.circle {
+    width: 300px;
+    height: 300px;
+    background-color: magenta;
+    transition: 1.5s;
+}
+*/
+
+/* transition: prop_name duration timing_function delay */
+
+/*
+.circle:hover {
+    background-color: cyan;
+    border-radius: 50%;
+    transition: background-color 2s 1s;
+}
+*/
