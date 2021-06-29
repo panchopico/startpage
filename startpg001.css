@@ -38,7 +38,7 @@ h3 {
 }
 
 .dblue:hover {
-    height: 300px;
+    height: 250px;
     background-color: skyblue;
     transition: background-color 2s, height 2s;
 }
@@ -57,7 +57,7 @@ h3 {
 
 .dlightgreen:hover {
 	background-color: lightgreen;
-	height: 300px;
+	height: 250px;
 	transition: background-color 2s, height 2s;
 }
 
@@ -75,7 +75,7 @@ h3 {
 
 .dpink:hover {
 	background-color: pink;
-	height: 300px;
+	height: 250px;
 	transition: background-color 2s,  height 2s;
 }
 
@@ -93,7 +93,7 @@ h3 {
 
 .dlightgray:hover {
 	background-color: orange;
-	height: 300px;
+	height: 250px;
 	transition: background-color 2s, height 2s; 
 }
 
@@ -111,7 +111,7 @@ h3 {
 
 .dlavender:hover {
 	background-color:  lavender;
-	height: 300px;
+	height: 250px;
 	transition: background-color 2s, height 2s;
 }
 
@@ -129,14 +129,30 @@ h3 {
 
 .dtan:hover {
 	background-color:  tan;
-	height: 300px;
+	height: 250px;
 	transition: background-color 2s, height 2s;
 }
+.dforestgreen{
+    background-color: gray;
+    width: 130px;
+    height: 250px;
+    display: inline-block;
+    margin: 5px;
+    border: 2px solid black;
+    padding: 5px;
+	transition: 2s;
+    vertical-align: top;
+}
 
+.dforestgreen:hover {
+	background-color:  forestgreen;
+	height: 250px;
+	transition: background-color 2s, height 2s;
+}
 /*
 .circle {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     background-color: magenta;
     transition: 1.5s;
 }
