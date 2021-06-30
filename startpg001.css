@@ -9,7 +9,7 @@ a {
 }
 
 a:hover {
-	background-color: yellow;
+	background-color: khaki;
 	font-weight: bold;
 }
 
@@ -97,7 +97,7 @@ h3 {
 	transition: background-color 2s, height 2s; 
 }
 
-.dlavender {
+.dorchid{
     background-color:gray;
     width: 130px;
     height: 250px;
@@ -105,12 +105,12 @@ h3 {
     margin: 5px;
     border: 2px solid black;
     padding: 5px;
-	transition: 2s;
+    transition: 2s;
     vertical-align: top;
 }
 
-.dlavender:hover {
-	background-color:  lavender;
+.dorchid:hover {
+	background-color:  mediumorchid;
 	height: 250px;
 	transition: background-color 2s, height 2s;
 }
